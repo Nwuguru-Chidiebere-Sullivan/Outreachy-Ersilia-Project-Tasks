@@ -11,5 +11,7 @@ This repository houses all codes and datasets employed in the tasks of validatin
 - Output: Probability of compound being unstable in HLM assay(float)
 - Interpretation: Probability of a compound being unstable in a HLM assay (half-life ≤ 30min)
 
-
+## Steps to Reproduce The Solutions to These Tasks:
+### Task 1:
+- From the list of models provided in the [Ersilia Book](https://ersilia.gitbook.io/ersilia-book/contributors/internships/outreachy-summer-2024), I selected tthe model of my choice which is [Human Liver Microsomal Stability Model](https://github.com/ersilia-os/eos31ve), especially because the model's publication, aim, and methodology resonated with me.
   
