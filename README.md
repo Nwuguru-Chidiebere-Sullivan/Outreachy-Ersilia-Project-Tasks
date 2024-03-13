@@ -6,7 +6,8 @@ This repository houses all codes and datasets employed in the tasks of validatin
 ## Model Information:
 - Eos Model ID: eos31ve
 - Slug: ncats-hlm
-- Task: Classification-• Input: Compound(canonicalsmiles)
+- Task: Classification
+- Input: Compound(canonicalsmiles)
 - Output: Probability of compound being unstable in HLM assay(float)
 - Interpretation: Probability of a compound being unstable in a HLM assay (half-life ≤ 30min)
 
