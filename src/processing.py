@@ -55,4 +55,28 @@ def standardise_inchikey(inchikeys):
     return st_inchikeys
 
 
+def calc_stats(pred_array, true_array, insol_thresh=-6, sol_thresh=-4):
+        '''
+        This function will calculate the following on the predicted array:
+           Hit% = #correct(lower_sol_thresh,upper_sol_thresh) / #(lower_sol_thresh,upper_sol_thresh)
+           Fail% = #true(insol_thresh)pred(lower_sol_thresh,upper_sol_thresh) / #pred(lower_sol_thresh,upper_sol_thresh)
+    
+        Assumptions: pred_array,true_array are paired numpy arrays.
+        '''
+    
+        #first we need to access the examples which have true in (lower_sol_thresh, upper_sol_thresh)
+        true_mask=(true_array > sol_thresh)
+    
+        #calculating the Hit%
+        num_true=len(true_array[true_mask])
+        poss_hits=pred_array[true_mask]
+        num_hits=np.sum((poss_hits>sol_thresh))
+        hit=num_hits/float(num_true)
+    
+        #calculating the Fail%
+        pred_mask=(pred_array > sol_thresh)
+        insol_mask=true_array <= insol_thresh
+        fail=np.sum(insol_mask & pred_mask) / float(np.sum(pred_mask))
+    
+    return hit,fail,np.sum(true_mask),np.sum(pred_mask)
 
