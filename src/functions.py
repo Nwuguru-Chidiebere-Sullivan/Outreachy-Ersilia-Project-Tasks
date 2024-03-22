@@ -79,3 +79,14 @@ def calc_stats(pred_array, true_array, insol_thresh=-6, sol_thresh=-4):
     fail=np.sum(insol_mask & pred_mask) / float(np.sum(pred_mask))
     
     return hit,fail,np.sum(true_mask),np.sum(pred_mask)
+
+
+def solubility_category(solubility):
+    if solubility >= 0:
+        return 'Highly Soluble'
+    elif solubility >= -2 and solubility < 0:
+        return 'Soluble'
+    elif solubility >= -4 and solubility < -2:
+        return 'Slightly Soluble'
+    else:
+        return 'Insoluble'
