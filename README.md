@@ -19,4 +19,10 @@ This repository houses all codes and datasets employed in the tasks of checking 
 - I then went on to deploy Ersilia Model Hub to Google Colab, fetched and served the model, eso6oli. After serving the model, I ran prediction on the model [1000 molecules](https://github.com/Nwuguru-Chidiebere-Sullivan/Outreachy-Ersilia-Project-Week2-Tasks/blob/main/data/1000_molecules.csv) using the model to generate these [Predictions](https://github.com/Nwuguru-Chidiebere-Sullivan/Outreachy-Ersilia-Project-Week2-Tasks/blob/main/data/1000_molecules_predictions.csv).
 - With the [Predictions](https://github.com/Nwuguru-Chidiebere-Sullivan/Outreachy-Ersilia-Project-Week2-Tasks/blob/main/data/1000_molecules_predictions.csv), I was able to look into the model bias through the insights gathered from these [visualisations](https://github.com/Nwuguru-Chidiebere-Sullivan/Outreachy-Ersilia-Project-Week2-Tasks/tree/main/figures/Task(1)%20figures).
 - The notebook containing the solution to task 1 can be found [here]()
+
+
+
+## Installation
+- To deploy Ersilia to Google Colab; fetch, serve, and run predictions with a model, follow the steps listed [here](https://github.com/ersilia-os/ersilia/blob/master/notebooks/ersilia-on-colab.ipynb].
+- To install SolTranNet on Google Colab, test, and run predictions with it, follow the steps listed [here](https://github.com/gnina/SolTranNet/blob/main/README.md)
   
