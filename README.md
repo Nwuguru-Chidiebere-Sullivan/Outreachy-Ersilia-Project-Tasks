@@ -11,10 +11,17 @@ This repository houses all codes and datasets employed in the tasks of checking 
 - Output: Experimental value
 - Interpretation: Predicted LogS (log of the solubility)
 
-
 ## Installation
 - To deploy Ersilia to Google Colab; fetch, serve, and run predictions with a model, follow the steps listed [here](https://github.com/ersilia-os/ersilia/blob/master/notebooks/ersilia-on-colab.ipynb]).
 - To install SolTranNet on Google Colab, test, and run predictions with it, follow the steps listed [here](https://github.com/gnina/SolTranNet/blob/main/README.md)
+
+## Structural organisation:
+This repository is organised by folders:
+- **data**: Contains the raw data, processed data and Model predictions.
+- **figures**: Contains a collection of visualizations presented in PNG format..
+- **Notebooks**: Houses the jupyter notebook files where most of the developmen took place.
+- **src**: Contains important functions I will re-use throughout the repository, to avoid typing them each time.
+
 
 ## Steps to Reproduce The Solutions to These Tasks:
 ### Task 1:
