@@ -15,5 +15,5 @@ This repository houses all codes and datasets employed in the tasks of checking 
 ### Task 1:
 - From the list of the models provided in the [Ersilia Book](https://ersilia.gitbook.io/ersilia-book/contributors/internships/outreachy-summer-2024), I selected tthe model of my choice which is [Aqueous Solubility Model](https://github.com/ersilia-os/eos6oli), especially because the model's publication, aim, and methodology resonated with me.
 - I then went on to create a repository that contained all the files and datasets needed for the project.
-- For my task 1, downloaded my dataset of [Harvard Dataverse](https://dataverse.harvard.edu/)
+- For my task 1, I downloaded the [dataset](https://github.com/Nwuguru-Chidiebere-Sullivan/Outreachy-Ersilia-Project-Week2-Tasks/blob/main/data/solubility-dataset.csv) from the public repository of [Harvard Dataverse](https://dataverse.harvard.edu/). With this [dataset](https://github.com/Nwuguru-Chidiebere-Sullivan/Outreachy-Ersilia-Project-Week2-Tasks/blob/main/data/solubility-dataset.csv), I was able through random sampling to generate the [1000 molecules]()
   
