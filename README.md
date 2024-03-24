@@ -45,6 +45,10 @@ This repository is organised by folders:
 - I equally captured the performance of both models in this [tabel](https://github.com/Nwuguru-Chidiebere-Sullivan/Outreachy-Ersilia-Project-Week2-Tasks/blob/main/figures/Task(2)%20figures/Performance%20metrics%20viz/performance%20metrics.png) and all the metrics were the same as well. With this, it was confirmed that the model was indeed reproducible.
 - The Notebook containing the detailed solutions to task 2 can be found [here](https://github.com/Nwuguru-Chidiebere-Sullivan/Outreachy-Ersilia-Project-Week2-Tasks/blob/main/Notebooks/Week2_Task2.ipynb)
 
+## Task 3(Model Validation):
+- To validate the model's ability to generalise well, I employed a strange and a new dataset which was gotten from [SolTranNet's GitHub Repo](https://github.com/francoep/SolTranNet_paper/blob/main/README.md).
+- I installed SolTranNet on Google Colab, then fetched and tested it before going ahead to run prediction on the [data]()
+
 
 
 
