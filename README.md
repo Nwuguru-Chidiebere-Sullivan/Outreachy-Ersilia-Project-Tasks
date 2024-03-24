@@ -53,10 +53,10 @@ This repository is organised by folders:
 - The Notebook with the detailed solution to this task can be found [here](https://github.com/Nwuguru-Chidiebere-Sullivan/Outreachy-Ersilia-Project-Week2-Tasks/blob/main/Notebooks/Week2_Task3.ipynb).
 
 ## References:
-[SolTranNet's Publication](https://pubs.acs.org/doi/10.1021/acs.jcim.1c00331)
-[SolTranNet's GitHub Repo For Datasets](https://github.com/gnina/SolTranNet)
-[Ersilia Google Colab Guide](https://github.com/ersilia-os/ersilia/blob/master/notebooks/ersilia-on-colab.ipynb)
-[Harvard Dataverse](https://dataverse.harvard.edu/)
+- [SolTranNet's Publication](https://pubs.acs.org/doi/10.1021/acs.jcim.1c00331)
+- [SolTranNet's GitHub Repo For Datasets](https://github.com/gnina/SolTranNet)
+- [Ersilia Google Colab Guide](https://github.com/ersilia-os/ersilia/blob/master/notebooks/ersilia-on-colab.ipynb)
+- [Harvard Dataverse](https://dataverse.harvard.edu/)
 
 
 
