@@ -23,6 +23,6 @@ This repository houses all codes and datasets employed in the tasks of checking 
 
 
 ## Installation
-- To deploy Ersilia to Google Colab; fetch, serve, and run predictions with a model, follow the steps listed [here](https://github.com/ersilia-os/ersilia/blob/master/notebooks/ersilia-on-colab.ipynb].
+- To deploy Ersilia to Google Colab; fetch, serve, and run predictions with a model, follow the steps listed [here](https://github.com/ersilia-os/ersilia/blob/master/notebooks/ersilia-on-colab.ipynb]).
 - To install SolTranNet on Google Colab, test, and run predictions with it, follow the steps listed [here](https://github.com/gnina/SolTranNet/blob/main/README.md)
   
