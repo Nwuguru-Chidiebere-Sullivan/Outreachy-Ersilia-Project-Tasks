@@ -37,7 +37,7 @@ This repository is organised by folders:
 - With the [Predictions](https://github.com/Nwuguru-Chidiebere-Sullivan/Outreachy-Ersilia-Project-Week2-Tasks/blob/main/data/1000_molecules_predictions.csv), I was able to look into the model bias through the insights gathered from these [visualisations](https://github.com/Nwuguru-Chidiebere-Sullivan/Outreachy-Ersilia-Project-Week2-Tasks/tree/main/figures/Task(1)%20figures).
 - The notebook containing the solution to task 1 can be found [here](https://github.com/Nwuguru-Chidiebere-Sullivan/Outreachy-Ersilia-Project-Week2-Tasks/blob/main/Notebooks/Week2_Task1.ipynb).
 
-## Task 2(Model's Reproducibilty):
+### Task 2(Model's Reproducibilty):
 - I installed, and tested the functionality of SolTranNet on Google Colab.
 - After confirming that the model was working properely, I went on to run prediction on the [1000 molecules](https://github.com/Nwuguru-Chidiebere-Sullivan/Outreachy-Ersilia-Project-Week2-Tasks/blob/main/data/1000_molecules.csv) and thereafter, saved the [predictions](https://github.com/Nwuguru-Chidiebere-Sullivan/Outreachy-Ersilia-Project-Week2-Tasks/blob/main/data/Soltranet_pred.csv).
 - I went on to evaluate the [predictions](https://github.com/Nwuguru-Chidiebere-Sullivan/Outreachy-Ersilia-Project-Week2-Tasks/blob/main/data/Soltranet_pred.csv); employing these [visualisations](https://github.com/Nwuguru-Chidiebere-Sullivan/Outreachy-Ersilia-Project-Week2-Tasks/tree/main/figures/Task(2)%20figures/Model%20Bias%20vis) to gather insights from the model's performance and suprisingly to me, it corresponded with what I got earlier when eos6oli from the Ersilia Model Hub acted on the same dataset, thus, confirming the reproducibility of the model, eos6oli.
@@ -45,10 +45,14 @@ This repository is organised by folders:
 - I equally captured the performance of both models in this [tabel](https://github.com/Nwuguru-Chidiebere-Sullivan/Outreachy-Ersilia-Project-Week2-Tasks/blob/main/figures/Task(2)%20figures/Performance%20metrics%20viz/performance%20metrics.png) and all the metrics were the same as well. With this, it was confirmed that the model was indeed reproducible.
 - The Notebook containing the detailed solutions to task 2 can be found [here](https://github.com/Nwuguru-Chidiebere-Sullivan/Outreachy-Ersilia-Project-Week2-Tasks/blob/main/Notebooks/Week2_Task2.ipynb)
 
-## Task 3(Model Validation):
+### Task 3(Model Validation):
 - To validate the model's ability to generalise well, I employed a strange and a new dataset which was gotten from [SolTranNet's GitHub Repo](https://github.com/francoep/SolTranNet_paper/blob/main/README.md).
 - I installed SolTranNet on Google Colab, then fetched and tested it before going ahead to run prediction on the [data](https://github.com/Nwuguru-Chidiebere-Sullivan/Outreachy-Ersilia-Project-Week2-Tasks/blob/main/data/llinas2020/llinas2020_set1_test.csv).
+- I evaluated the model's performance on the predictions with different [visualisations]() and [performance metrics]().
+- I then went on to reproduce these results on Ersilia-eos6oli. Both the [visualisations]() and [performance metrics]() were exactly the same with what I got with SolTranNet.
+- The Notebook with the detailed solution to this task can be found [here]().
 
+## References:
 
 
 
