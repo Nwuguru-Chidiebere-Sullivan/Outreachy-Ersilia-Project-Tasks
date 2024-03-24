@@ -41,7 +41,7 @@ This repository is organised by folders:
 - I installed, and tested the functionality of SolTranNet on Google Colab.
 - After confirming that the model was working properely, I went on to run prediction on the [1000 molecules](https://github.com/Nwuguru-Chidiebere-Sullivan/Outreachy-Ersilia-Project-Week2-Tasks/blob/main/data/1000_molecules.csv) and thereafter, saved the [predictions](https://github.com/Nwuguru-Chidiebere-Sullivan/Outreachy-Ersilia-Project-Week2-Tasks/blob/main/data/Soltranet_pred.csv).
 - I went on to evaluate the [predictions](https://github.com/Nwuguru-Chidiebere-Sullivan/Outreachy-Ersilia-Project-Week2-Tasks/blob/main/data/Soltranet_pred.csv); employing these [visualisations]() to gather insights from the model's performance and suprisingly to me, it corresponded with what I got earlier when eos6oli from the Ersilia Model Hub acted on the same dataset, thus, confirming the reproducibility of the model, eos6oli.
-- To further confirm this reproducibility, I compared directly the predictions from both SolTranNet and eos6oli from the Ersilia Model Hub by merging the both predictions into a single DataFrame. With the use of [scatter plot]() and the 
+- To further confirm this reproducibility, I compared directly the predictions from both SolTranNet and eos6oli from the Ersilia Model Hub by merging the both predictions into a single DataFrame. With the use of [scatter plot](https://github.com/Nwuguru-Chidiebere-Sullivan/Outreachy-Ersilia-Project-Week2-Tasks/blob/main/figures/Task(2)%20figures/repro_scatter_plot.png) and the 
 
 
 
