@@ -3,6 +3,11 @@
 ## Overview:
 This repository houses all codes and datasets employed in the tasks of checking for bias, validating and reproducing the aqueous solubility model, eso6oli, which is a regression model that predicts the Log of solubility(LogS). 
 
+## Abstract:
+- Ersilia eso6oli is the SolTransNet model of SolTranNet−A Machine Learning Tool for Fast Aqueous Solubility Prediction [paper](https://pubmed.ncbi.nlm.nih.gov/34038123/) by Francoeur er al.
+- SolTranNet is a molecule attention transformer MAT to predict aqueous solubility from a molecule's SMILES representation. It is a Regression model, that predicts LogS (log of the solubility) in order to help filter out insoluble compounds! The fine tuning of this mode is done with pertained model MAT, which applies self attention to a molecular graph representation of the molecule.
+  
+
 ## Model Information:
 - Eos Model ID: eos6oli
 - Slug: soltrannet-aqueous-solubility
