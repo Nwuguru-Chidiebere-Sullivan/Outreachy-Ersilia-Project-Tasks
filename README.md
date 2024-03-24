@@ -48,7 +48,7 @@ This repository is organised by folders:
 ### Task 3(Model Validation):
 - To validate the model's ability to generalise well, I employed a strange and a new dataset which was gotten from [SolTranNet's GitHub Repo](https://github.com/francoep/SolTranNet_paper/blob/main/README.md).
 - I installed SolTranNet on Google Colab, then fetched and tested it before going ahead to run prediction on the [data](https://github.com/Nwuguru-Chidiebere-Sullivan/Outreachy-Ersilia-Project-Week2-Tasks/blob/main/data/llinas2020/llinas2020_set1_test.csv).
-- I evaluated the model's performance on the predictions with different [visualisations]() and [performance metrics]().
+- I evaluated the model's performance on the predictions with different [visualisations](https://github.com/Nwuguru-Chidiebere-Sullivan/Outreachy-Ersilia-Project-Week2-Tasks/tree/main/figures/Task(3)%20figures/Soltranet_figures) and [performance metrics]().
 - I then went on to reproduce these results on Ersilia-eos6oli. Both the [visualisations]() and [performance metrics]() were exactly the same with what I got with SolTranNet.
 - The Notebook with the detailed solution to this task can be found [here]().
 
