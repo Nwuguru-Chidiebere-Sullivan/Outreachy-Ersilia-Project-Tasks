@@ -50,7 +50,7 @@ This repository is organised by folders:
 - I installed SolTranNet on Google Colab, then fetched and tested it before going ahead to run prediction on the [data](https://github.com/Nwuguru-Chidiebere-Sullivan/Outreachy-Ersilia-Project-Week2-Tasks/blob/main/data/llinas2020/llinas2020_set1_test.csv).
 - I evaluated the model's performance on the predictions with different [visualisations](https://github.com/Nwuguru-Chidiebere-Sullivan/Outreachy-Ersilia-Project-Week2-Tasks/tree/main/figures/Task(3)%20figures/Soltranet_figures) and [performance metrics](https://github.com/Nwuguru-Chidiebere-Sullivan/Outreachy-Ersilia-Project-Week2-Tasks/blob/main/figures/Task(3)%20figures/Soltranet_figures/Soltranet's%20Validation%20Performance%20Metrics.png).
 - I then went on to reproduce these results on Ersilia-eos6oli. Both the [visualisations](https://github.com/Nwuguru-Chidiebere-Sullivan/Outreachy-Ersilia-Project-Week2-Tasks/tree/main/figures/Task(3)%20figures/eos6oli_figures) and [performance metrics](https://github.com/Nwuguru-Chidiebere-Sullivan/Outreachy-Ersilia-Project-Week2-Tasks/blob/main/figures/Task(3)%20figures/eos6oli_figures/eos6oli%20performance%20metrics.png) were exactly the same with what I got from SolTranNet.
-- The Notebook with the detailed solution to this task can be found [here](https://github.com/Nwuguru-Chidiebere-Sullivan/Outreachy-Ersilia-Project-Week2-Tasks/blob/main/Notebooks/Week2_Task3.ipynb).
+- The Notebook with the detailed solution to this task can be found [here](https://github.com/Nwuguru-Chidiebere-Sullivan/Outreachy-Ersilia-Project-Tasks/blob/main/Notebooks/Week3_Task.ipynb).
 
 ## References:
 - [SolTranNet's Publication](https://pubs.acs.org/doi/10.1021/acs.jcim.1c00331)
