@@ -24,7 +24,7 @@ This repository houses all codes and datasets employed in the tasks of checking 
 This repository is organised by folders:
 - **data**: Contains the raw data, processed data and Model predictions.
 - **figures**: Contains a collection of visualizations presented in PNG format..
-- **Notebooks**: Houses the jupyter notebook files where most of the developmen took place.
+- **Notebooks**: Houses the jupyter notebook files where most of the tasks on the model took place.
 - **src**: Contains important functions I will re-use throughout the repository, to avoid typing them each time.
 
 
